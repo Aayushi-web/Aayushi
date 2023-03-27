@@ -298,12 +298,41 @@ width: 100%;
 /* ============About me section================ */
 .section{
     position: relative;
-    padding: var(--section-padding),0;
+    padding: var(--section-padding) 0;
 }
+
+
 .about .container{
-display: grid;
-grid-template-columns: 2fr 1fr;
+    display: grid;
+    grid-template-columns:1.05fr 1fr;
+    
 }
-.about .text{
+
+.about .about-info1{
     margin: 3rem 0 4rem;
 }
+.st0{
+   color:rgb(255, 0, 255);
+   font-size: 6rem;
+   
+}
+.st1{
+    color:rgb(0, 157, 255);
+    font-size: 6rem;
+    
+ }
+ .st2{
+    color:rgb(0, 255, 94);
+    font-size: 6rem;
+    
+ }
+ .st3{
+    color:rgb(0, 0, 0);
+    font-size: 6rem;
+    
+ }
+ .about-grid{
+    display: grid;
+    grid-template-columns: 190px 190px;
+    grid-template-rows: 190px 190px;
+ }
